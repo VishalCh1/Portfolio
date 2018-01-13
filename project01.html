@@ -12,7 +12,16 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Poppins:500,600" rel="stylesheet">    
-   
+    <style type="text/css">
+   	.loadingtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ /*   font-weight:  bold;
+    font-size: 50px;
+    color: #292929;*/
+}
+   </style>
 </head>
     
 
@@ -24,7 +33,14 @@
 <body class="hidden">
 	
     <div class="page-overlay from-bottom">
-        <div class="animate-box-bottom"></div>
+    	<!-- <div class="loadingtext">
+        	<span style="font-weight: bold; font-size: 30px;">Good things come to those who wait.</span>
+        </div> -->
+        <div class="animate-box-bottom loadingtext">
+        	
+        	<img src="images/Preloader_3.gif">
+        </div>
+        
     </div>
     
 	<main>
